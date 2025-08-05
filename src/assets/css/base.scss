@@ -1,0 +1,222 @@
+// 基础布局文件
+* {
+      margin: 0;
+      padding: 0;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+}
+
+a {
+      text-decoration: none;
+      color: #15abfb;
+      cursor: pointer;
+}
+
+em,
+i {
+      font-style: normal;
+}
+
+ul,
+ol {
+      list-style: none;
+}
+
+:focus-visible {
+      outline: none !important;
+}
+
+html,
+body {
+      width: 100%;
+      height: 100%;
+      font-size: 62.5%;
+      // min-height: 100vh;
+      overflow-x: hidden;
+      font-variant: tabular-nums;
+      --tabActiveColor: #c60f49;
+}
+
+body {
+      // margin: auto;
+      font-family: " -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';";
+      -webkit-overflow-scrolling: touch;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-size: 1.4rem;
+      color: #505050;
+      background-color: #fff;
+}
+
+#app {
+      position: relative;
+      top: 0;
+      width: 100%;
+      height: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+      -webkit-appearance: none !important;
+      margin: 0;
+}
+
+textarea {
+      resize: none;
+      font-size: 1.4rem;
+      color: #505050;
+      border: none;
+      font-family: " -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';";
+}
+
+
+input,
+button {
+      appearance: none;
+      outline: none;
+      border: 1px solid transparent;
+}
+
+button {
+      cursor: pointer;
+      outline: none;
+}
+
+.pointer {
+      cursor: pointer;
+}
+
+.hover:hover {
+      color: #ff8040;
+      cursor: pointer;
+}
+
+
+/*文字对齐方式*/
+
+.f-left {
+      text-align: left !important;
+}
+
+.f-right {
+      text-align: right !important;
+}
+
+.f-center {
+      text-align: center !important;
+}
+
+
+.f-scroll-lt {
+      overflow-y: scroll;
+}
+
+.f-flowHid {
+      overflow: hidden;
+}
+
+
+// 文字大小
+
+.f-fs-12 {
+      font-size: 1.2rem;
+}
+
+.f-fs-14 {
+      font-size: 1.4rem;
+}
+
+.f-fs-16 {
+      font-size: 1.6rem;
+}
+
+.f-fs-18 {
+      font-size: 1.8rem;
+}
+
+.f-fs-20 {
+      font-size: 2.0rem;
+}
+
+.f-fs-22 {
+      font-size: 2.2rem;
+}
+
+.f-fs-24 {
+      font-size: 2.4rem;
+}
+
+.f-fs-36 {
+      font-size: 3.6rem;
+}
+
+// 文字样式
+
+.f-wb {
+      font-weight: bold;
+}
+
+.f-tdl {
+      text-decoration: line-through;
+}
+
+.f-tdu {
+      text-decoration: underline;
+}
+
+
+.f-vb-hidden {
+      visibility: hidden;
+}
+
+.f-inline-block {
+      display: inline-block;
+}
+
+
+
+.f-line-btm {
+      border-bottom: 1px solid #e8eaec;
+}
+
+.f-shading-grey {
+      box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+
+// 自动换行
+.word-w-b {
+      word-wrap: break-word;
+      word-break: normal;
+}
+
+//文字不换行
+.nowrap {
+      white-space: nowrap;
+}
+
+.ellipsis {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      word-break: break-all;
+}
+
+.pre-wrap {
+      white-space: pre-wrap;
+}
+
+.dashed {
+      border-bottom: 1px dashed #c9c7c7ee;
+}
+
+
+
+
+
+@import url('./color.css');
+@import url('./margin-padding.css');
+@import url('./flex.css');
+@import url('./reset.scss');

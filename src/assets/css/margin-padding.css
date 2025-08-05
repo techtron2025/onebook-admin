@@ -1,0 +1,159 @@
+/* margin */
+.f-mt-05 {
+    margin-top: 0.5rem;
+}
+
+.f-mt-10 {
+    margin-top: 1rem;
+}
+
+.f-mt-20 {
+    margin-top: 2rem;
+}
+
+.f-mt-30 {
+    margin-top: 3rem;
+}
+
+.f-mt-50 {
+    margin-top: 5rem;
+}
+.f-mt-100 {
+    margin-top: 1rem;
+}
+
+.f-mr-05 {
+    margin-right: 0.5rem;
+}
+
+.f-mr-10 {
+    margin-right: 1rem;
+}
+
+.f-mr-20 {
+    margin-right: 2rem;
+}
+
+.f-mr-30 {
+    margin-right: 3rem;
+}
+
+.f-mb-10 {
+    margin-bottom: 1rem;
+}
+
+.f-mb-20 {
+    margin-bottom: 2rem;
+}
+
+.f-ml-04 {
+    margin-left: 0.4rem;
+}
+
+.f-ml-05 {
+    margin-left: 0.5rem;
+}
+
+.f-ml-10 {
+    margin-left: 1rem;
+}
+
+.f-ml-20 {
+    margin-left: 2rem;
+}
+
+.f-ml-30 {
+    margin-left: 3rem;
+}
+.f-mtb-30 {
+    margin: 3rem 0;
+}
+.f-mlr-10 {
+    margin: 0 1rem;
+}
+.f-mlr-05 {
+    margin: 0 0.5rem;
+}
+
+/* padding */
+
+.f-p-05 {
+    padding: 0.5rem;
+}
+
+.f-p-10 {
+    padding: 1rem;
+}
+
+.f-p-20 {
+    padding: 2rem;
+}
+
+.f-pb-10 {
+    padding-bottom: 1rem;
+}
+
+.f-pb-20 {
+    padding-bottom: 2rem;
+}
+
+.f-plr—10 {
+    padding: 0 1rem;
+}
+
+.f-plr—20 {
+    padding: 0 2rem;
+}
+
+.f-plr—30 {
+    padding: 0 3rem;
+}
+
+.f-ptb-05 {
+    padding: 0.5rem 0;
+}
+
+.f-ptb-10 {
+    padding: 1rem 0;
+}
+
+.f-ptb-15 {
+    padding: 1.5rem 0;
+}
+
+.f-ptb-20 {
+    padding: 2rem 0;
+}
+
+.f-pt-10 {
+    padding-top: 1rem 0 0 0;
+}
+
+.f-pt-20 {
+    padding: 2rem 0 0 0;
+}
+
+.f-pr-20 {
+    padding-right: 2rem;
+}
+.f-pl-10 {
+    padding-left: 1rem;
+}
+
+.f-pl-20 {
+    padding-left: 2rem;
+}
+.f-p-t10-b20 {
+    padding: 10px 20px;
+}
+
+/* position */
+.p-r {
+    position: relative;
+}
+.p-a {
+    position: absolute;
+}
+.p-f {
+    position: fixed;
+}

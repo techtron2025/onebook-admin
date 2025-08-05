@@ -1,0 +1,6 @@
+// 导出去，让js使用
+:export {
+    menuBgColor: $menu-bg-color;
+    menuActiveColor: $menu-active-color;
+    menuTextColor: $menu-text-color;
+}

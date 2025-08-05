@@ -1,0 +1,29 @@
+// 折叠
+.fold {
+      width: $base-aside-min-with !important;
+}
+
+/* 强制table cell不换行 */
+.table-content .cell {
+      white-space: nowrap !important;
+      /* text-align: center */
+}
+
+/* 分页 */
+.table-footer {
+      border: 1px solid #ebeef5;
+      border-top: 1px solid transparent;
+      height: 50px;
+      display: flex;
+      flex-direction: row-reverse;
+      padding-right: 40px;
+}
+
+// 图片预览展示问题
+.el-table__cell {
+      position: static !important;
+}
+
+.el-loading-mask{
+      z-index: 999999999999 !important;
+}

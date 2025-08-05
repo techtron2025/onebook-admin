@@ -1,0 +1,47 @@
+/*flex*/
+
+.dy {
+    display: flex;
+}
+
+.dy-c {
+    flex-direction: column;
+}
+
+.dy-w {
+    flex-wrap: wrap;
+}
+
+.dy-jc-c {
+    justify-content: center;
+}
+.dy-ai-c {
+    align-items: center;
+}
+
+.dy-jc-b {
+    justify-content: space-between;
+}
+
+.dy-jc-a {
+    justify-content: space-around;
+}
+
+.dy-jc-fe {
+    justify-content: flex-end;
+}
+
+.dy-ac-a {
+    align-content: space-around;
+}
+
+.dy-ac-b {
+    align-content: space-between;
+}
+
+.dy-ai-fs {
+    align-items: flex-start;
+}
+.flex-1 {
+    flex: 1;
+}

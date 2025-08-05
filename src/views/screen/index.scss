@@ -1,0 +1,148 @@
+.container {
+      width: 100%;
+      height: 100%;
+      background-color: #282c34;
+}
+
+.screen {
+      background-color: #282c34;
+      color: #fff;
+      position: fixed;
+      width: 1920px;
+      height: 911px;
+      left: 50%;
+      top: 50%;
+      transform-origin: left top;
+}
+
+.content {
+      position: relative;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      padding: 70px 30px 30px 30px;
+      justify-content: space-between;
+      overflow: hidden;
+}
+
+.btn {
+      position: absolute;
+      padding: 2px 5px;
+      right: 50px;
+      top: 40px;
+      border: 1px solid #4fd2dd;
+      color: #4fd2dd;
+      font-size: 12px;
+}
+
+.btn:hover {
+      cursor: pointer;
+      color: #05b5c5;
+      border: 1px solid #05b5c5;
+}
+
+.time {
+      position: absolute;
+      left: 50px;
+      top: 40px;
+      color: #4fd2dd;
+      font-weight: 700;
+}
+
+.left {
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+}
+
+.left-box {
+      padding: 10px;
+      height: 32%;
+}
+
+.left-box div:nth-child(2) {
+      height: 80%;
+}
+
+.middle {
+      width: 48%;
+}
+
+.middle-box {
+      padding: 30px;
+}
+
+.map {
+      width: 100%;
+      height: calc(100% - 80px);
+}
+
+.right {
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+}
+
+.right-box {
+      padding: 10px 30px;
+      height: 32%;
+}
+
+
+
+.tip {
+      position: relative;
+      padding: 10px;
+}
+
+.tip::before {
+      position: absolute;
+      left: 4px;
+      top: 12px;
+      content: '';
+      width: 3px;
+      height: 15px;
+      background-color: #4fd2dd;
+}
+
+.online {
+      width: 300px;
+      height: 60px;
+      padding: 20px;
+}
+
+.realVisitor {
+      height: 80%;
+      padding-top: 30px;
+      padding-left: 20px;
+      display: flex;
+
+}
+
+.avatar-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 120px;
+      height: 100%;
+
+}
+
+.avatar-box img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: block;
+      transition: all .3s;
+}
+
+.avatar-box img:hover {
+      transform: scale(1.2);
+}
+
+.user-box {
+      flex: 1;
+      overflow: hidden;
+}
