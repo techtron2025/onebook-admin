@@ -1,4 +1,4 @@
-name: Deploy blog-admin
+name: Deploy onebook-admin
 
 on:
   # Runs on pushes targeting the default branch

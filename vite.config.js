@@ -20,7 +20,7 @@ export default defineConfig(({command, mode}) => {
     const env = loadEnv(mode, process.cwd())
 
     return {
-        base: process.env.NODE_ENV === 'production' ? '/blog-admin/' : '/',
+        base: process.env.NODE_ENV === 'production' ? '/onebook-admin/' : '/',
         plugins: [
             AutoImport({
                 resolvers: [ElementPlusResolver()],
