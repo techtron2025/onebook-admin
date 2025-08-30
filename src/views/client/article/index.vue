@@ -111,7 +111,7 @@ const getList = () => {
     form.pageSize = pageSize.value
     api.articleList(form).then((res) => {
         list.value = res.data.records
-        total.value = res.data.total
+        total.value = Number(res.data.total)
     })
 }
 
