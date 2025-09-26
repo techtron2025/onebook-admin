@@ -10,12 +10,6 @@
                 <el-form-item label="博文标题" prop="title" style="width: 90%">
                     <el-input v-model="form.title" :rows="2" type="textarea" placeholder="请输入博文标题"></el-input>
                 </el-form-item>
-                <el-form-item label="博文封面" prop="url" style="width: 90%">
-                    <el-upload class="img-uploader" :auto-upload="false" :on-change="uploadChange">
-                        <div v-if="form.preUrl" class="avatar" :style="{backgroundImage: `url(${form.preUrl})`}"></div>
-                        <el-icon v-else class="avatar-uploader-icon"><Plus /></el-icon>
-                    </el-upload>
-                </el-form-item>
             </div>
             <div class="flex-1">
                 <el-form-item label="" prop="isTop" style="width: 90%">
@@ -27,9 +21,6 @@
 
                 <el-form-item label="博文标签" prop="tags" style="width: 90%">
                     <el-input v-model="form.tags" :rows="2" type="textarea" placeholder="请添加博文标签，以#开头，可添加多个"></el-input>
-                </el-form-item>
-                <el-form-item label="博文摘要" prop="blogAbstract" style="width: 90%">
-                    <el-input v-model="form.blogAbstract" :rows="4" type="textarea" placeholder="请输入博文标题"></el-input>
                 </el-form-item>
 
                 <el-form-item style="width: 90%">
@@ -183,8 +174,6 @@ function uploadChange({raw: file}) {
 const rules = reactive({
     title: [{required: true, message: '请输入博文标题', trigger: 'blur'}],
     content: [{required: true, message: '请输入博文内容', trigger: 'change'}],
-    url: [{required: true, message: '请上传博文封面图片', trigger: 'change'}],
-    blogAbstract: [{required: true, message: '请输入博文摘要', trigger: 'blur'}],
 })
 </script>
 

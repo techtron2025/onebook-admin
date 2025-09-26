@@ -16,13 +16,8 @@
         <div class="table-content" ref="container">
             <el-table :data="list" border stripe :height="tabHeight" :header-cell-style="headerCellStyle" :cell-style="cellStyle">
                 <el-table-column prop="title" label="博文名称" min-width="200"></el-table-column>
-                <el-table-column prop="url" label="博文图片" min-width="70">
-                    <template #default="{row}">
-                        <el-image style="width: 100%; height: 30px" :src="row.url" :preview-src-list="[row.url]" fit="cover" />
-                    </template>
-                </el-table-column>
-                <el-table-column prop="visitors" label="浏览人数" min-width="70"></el-table-column>
-                <el-table-column prop="comments" label="评论数" min-width="70"></el-table-column>
+                <!-- <el-table-column prop="visitors" label="浏览人数" min-width="70"></el-table-column>
+                <el-table-column prop="comments" label="评论数" min-width="70"></el-table-column> -->
                 <el-table-column prop="createTime" label="创建时间" min-width="130"></el-table-column>
                 <el-table-column prop="updateTime" label="修改时间" min-width="130"></el-table-column>
                 <el-table-column label="操作" width="200" fixed="right">
@@ -63,27 +58,6 @@ import {useRouter, useRoute} from 'vue-router'
 import api from './api'
 const $router = useRouter()
 
-const recommendList = [
-    {
-        value: 1,
-        label: '推荐',
-    },
-    {
-        value: 2,
-        label: '不推荐',
-    },
-]
-
-const hotList = [
-    {
-        value: 1,
-        label: '火热',
-    },
-    {
-        value: 2,
-        label: '不火热',
-    },
-]
 
 // table hooks
 const {headerCellStyle, container, tabHeight} = useTable(0)
